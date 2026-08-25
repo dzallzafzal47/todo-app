@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📝 Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-card">
+            <div class="header">
+                <h1>📝 Todo List</h1>
+                <p class="subtitle">Manage your daily tasks</p>
+            </div>
+            
+            <!-- Input Form -->
+            <div class="todo-form">
+                <input type="text" id="todoInput" placeholder="Add new task..." autofocus>
+                <button id="addBtn">➕ Add</button>
+            </div>
+            
+            <!-- Filter -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+            
+            <!-- Counter -->
+            <div class="counter">
+                <span id="taskCount">0</span> tasks remaining
+            </div>
+            
+            <!-- Task List -->
+            <ul id="todoList"></ul>
+            
+            <!-- Clear All -->
+            <button id="clearAll" class="clear-btn">🗑️ Clear All</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
