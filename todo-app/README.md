@@ -35,8 +35,6 @@ A simple, clean, and functional Todo List application with beautiful background 
 
 🔗 [View Demo](https://dzallzafzal47.github.io/todo-app/)
 
-> **Ganti `username` dengan username GitHub kamu!**
-
 ## 📦 Installation
 
 ```bash
