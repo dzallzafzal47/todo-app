@@ -33,7 +33,7 @@ A simple, clean, and functional Todo List application with beautiful background 
 
 ## 🚀 Live Demo
 
-🔗 [View Demo](https://dzallzafzal47/todo-app/)
+🔗 [View Demo](https://dzallzafzal47.github.io/todo-app/)
 
 > **Ganti `username` dengan username GitHub kamu!**
 
